@@ -28,7 +28,11 @@ Service will be divided into parts:
 4. Redis DB(port 6379) Each part should be placed in their own docker container and all containers will be linked through docker-compose.
 
 ### Running instructions
-using terminal type: docker-compose up -d --build docker-compose up open the browser network URL: http://192.168.0.137:8501 or http://localhost:8501 you can type your question in text input field and press Enter or click Ask button, and service will give you answer.
+using terminal type: 
+```docker-compose up -d --build 
+docker-compose up```
+
+open the browser network URL: http://192.168.0.137:8501 or http://localhost:8501 you can type your question in text input field and press Enter or click Ask button, and service will give you answer.
 
 ### Dataset description
 Dataset Cornell movie dialogs corpus consists of 220,579 conversational exchanges between 10,292 pairs of movie characters, involves 9,035 characters from 617 movies, and in total 304,713 utterances.
