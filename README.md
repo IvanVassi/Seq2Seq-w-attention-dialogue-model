@@ -25,7 +25,9 @@ Service will be divided into parts:
 1. Backend - which will perform the model inference according with the text processing utils. (on port 8080) 
 2. Frontend - simple streamlit app with text input field and button (on port 8501) 
 3. Celery worker. 
-4. Redis DB(port 6379) Each part should be placed in their own docker container and all containers will be linked through docker-compose.
+4. Redis DB(port 6379) 
+
+Each part should be placed in their own docker container and all containers will be linked through docker-compose.
 
 ### Running instructions
 using terminal type: 
