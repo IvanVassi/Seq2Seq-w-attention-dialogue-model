@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ivan/Desktop/LSML_FP/async_vers/Train_model/mlruns/0/fec6951037da4848af855d4c61938045/artifacts
+end_time: 1630937602326
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: fec6951037da4848af855d4c61938045
+run_uuid: fec6951037da4848af855d4c61938045
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1630937139190
+status: 3
+tags: []
+user_id: ivan

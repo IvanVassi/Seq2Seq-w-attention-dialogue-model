@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+    frontend:
+        build: frontend
+        network_mode: host
+        ports:
+          - 8501:8501
+        depends_on:
+          - backend
+    backend:
+        build: backend
+        network_mode: host
+        ports:
+          - 8080:8080
+        depends_on:
+          - worker
+          - redis
+    redis:
+        container_name: redis
+        network_mode: host
+        image: redis
+        hostname: redis
+        ports:
+          - 6379:6379
+
+    worker:
+        build:
+          context: ./backend
+        network_mode: host
+        hostname: worker
+        entrypoint: celery
+        command: -A inference.celeryapp worker -P solo
+        depends_on:
+          - redis

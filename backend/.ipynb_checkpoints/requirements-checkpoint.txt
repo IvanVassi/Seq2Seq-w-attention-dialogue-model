@@ -1,0 +1,7 @@
+# backend/requirements.txt
+
+flask
+redis
+celery
+numpy
+torch==1.8.0
