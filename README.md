@@ -29,8 +29,10 @@ Service will be divided into parts:
 
 ### Running instructions
 using terminal type: 
-```docker-compose up -d --build 
-docker-compose up```
+```bash
+docker-compose up -d --build 
+docker-compose up
+```
 
 open the browser network URL: http://192.168.0.137:8501 or http://localhost:8501 you can type your question in text input field and press Enter or click Ask button, and service will give you answer.
 
