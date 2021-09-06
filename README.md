@@ -1,19 +1,4 @@
 # LSML2 Final Project
-# Task description
-## Details for the project structure:
-
-## Project documentation 
-### 1.1. design document
-### 1.2. run instructions (env, commands) 
-### 1.3. architecture, losses, metrics
-### Data set
-### Model training code.
-### 3.1. Jupyter Notebook 
-### 3.2. MLFlow project
-### Service deployment and usage instructions 
-### 4.1. dockerfile or docker-compose file 
-### 4.2. required services: databases 
-### 4.3. client for service 4.4. model
 
 ### Design principles
 I would like to create simple question answering bot, using the Cornell movie dialogs corpus, and using Seq2Seq with attention model. Trained model consisting of Encoder and Decoder models will be trained on dataset, model weights will be saved according with word2id dictionaries.
