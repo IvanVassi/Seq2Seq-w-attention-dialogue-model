@@ -1,4 +1,4 @@
-# LSML2 Final Project
+# Seq2Seq with attention dialogue model
 
 ### Design principles
 I would like to create simple question answering bot, using the Cornell movie dialogs corpus, and using Seq2Seq with attention model. Trained model consisting of Encoder and Decoder models will be trained on dataset, model weights will be saved according with word2id dictionaries.
